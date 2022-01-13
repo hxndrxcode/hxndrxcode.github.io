@@ -1,0 +1,11 @@
+main {
+    padding-top: 100px;
+}
+
+@media (min-width: 768px) {
+    .container { max-width: 720px; }
+}
+@media print {
+    .pagebreak { page-break-before: always; }
+    main { padding-top: 0; }
+}
