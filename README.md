@@ -1,3 +1,3 @@
 # hxndrxcode.github.io
-My professional and hobby experiences:
+This is my resume website:
 [hxndrxcode.github.io](https://hxndrxcode.github.io)
