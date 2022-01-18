@@ -82,6 +82,18 @@ const vueApp = new Vue({
                     website: []
                 },
                 {
+                    name: 'Mern Blog',
+                    status: 'Development',
+                    description: 'Blogging Platforn with Social Media approach.\n\n' +
+                        '- Build with MERN stack.\n',
+                    techs: ['NodeJS', 'MongoDB', 'ExpressJS', 'ReactJS'],
+                    repo: {
+                        url: 'https://github.com/hxndrxcode/mern-blog',
+                        title: 'Github'
+                    },
+                    website: []
+                },
+                {
                     name: 'AyamRTC',
                     status: 'Development',
                     description: 'Webcam Video Call.\n\n' +
