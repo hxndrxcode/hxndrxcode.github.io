@@ -23,6 +23,7 @@ const vueApp = new Vue({
                         'WebRTC',
                         'Firebase',
                         'Push_Notif',
+                        'FTP'
                     ]
                 },
                 {
@@ -89,6 +90,19 @@ const vueApp = new Vue({
                     techs: ['NodeJS', 'MongoDB', 'ExpressJS', 'ReactJS'],
                     repo: {
                         url: 'https://github.com/hxndrxcode/mern-blog',
+                        title: 'Github'
+                    },
+                    website: []
+                },
+                {
+                    name: 'KudaFTP',
+                    status: 'Development',
+                    description: 'FTP Client for basic needs\n\n' +
+                        '- Build with Go as the Backend.\n' +
+                        '- UI with React App.\n',
+                    techs: ['Go', 'FTP', 'ReactJS'],
+                    repo: {
+                        url: 'https://github.com/hxndrxcode/kuda-ftp',
                         title: 'Github'
                     },
                     website: []
