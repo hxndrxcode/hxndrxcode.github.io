@@ -9,3 +9,14 @@ main {
     .pagebreak { page-break-before: always; }
     main { padding-top: 0; }
 }
+@media screen {
+    .page-footer {
+        display: none;
+    }
+}
+@media print {
+    .page-footer {
+        position: fixed;
+        bottom: 0;
+    }
+}

@@ -160,6 +160,61 @@ const vueApp = new Vue({
                     ]
                 },
             ],
+            freelances: [
+                {
+                    client: 'Ainosi',
+                    period: '2020',
+                    description: 'Customer Retention Platform (Loyalty and rewarding system)\n',
+                    techs: [
+                        'Go',
+                        'NodeJS',
+                        'Echo',
+                        'AdonisJS',
+                        'RabbitMQ',
+                        'gRPC'
+                    ],
+                },
+                {
+                    client: 'Sivera',
+                    period: '2019 & 2021',
+                    description: 'Budget verification system (Ministry of Economic)\n',
+                    techs: [
+                        'PHP',
+                        'Laravel',
+                        'Vue'
+                    ],
+                },
+                {
+                    client: 'Emenpada',
+                    period: '2019',
+                    description: 'Regional Tax Management (Minitry of Tax South Jakarta)\n',
+                    techs: [
+                        'PHP',
+                        'Laravel',
+                        'Vue'
+                    ],
+                },
+                {
+                    client: 'Bentuk16',
+                    period: '2021',
+                    description: 'Inventory Management\n',
+                    techs: [
+                        'NodeJS',
+                        'AdonisJS',
+                        'Vue',
+                    ],
+                },
+                {
+                    client: 'Tripsista',
+                    period: '2018',
+                    description: 'Tour and traveling website\n',
+                    techs: [
+                        'PHP',
+                        'Laravel',
+                        'Vue'
+                    ],
+                },
+            ],
             contacts: [
                 {
                     type: 'Email',
