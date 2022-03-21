@@ -5,8 +5,9 @@ const vueApp = new Vue({
             about: 'Hello there!\n\n' +
                 'My name is Hendro. I live in Indonesia. I have been a software engineer since 2018. My most used programming language is **Node.js**.\n' +
                 'But currently, I\'m in love with **Go**.\n\n' +
-                'Currently I\'m looking for new job opportunity. Interested in full time remote working.\n' +
-                'But I accept freelance and part time job as well.\n',
+                '~Currently I\'m looking for new job opportunity. Interested in full time remote working.\n' +
+                'But I accept freelance and part time job as well.~\n\n' +
+                '**Update 21 Mar 2021:** I have got my new job. For a moment, I\'m not looking for any jobs.',
             techs: [
                 {
                     group: 'Language',
