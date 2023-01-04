@@ -67,9 +67,11 @@
                     </a>
                     <br>
                     Website: 
-                    <a v-for="w in p.website" :href="w.url" target="_blank" rel="noopener noreferrer">
-                        {{ w.title }}
-                    </a>
+                    <template v-for="s in w.website">
+                    <a :href="s.url" target="_blank" rel="noopener noreferrer">
+                        {{ s.title }}
+                    </a> |
+                    </template>
                     <span v-if="p.website.length == 0" class="text-danger">-</span>
                 </div>
             </div>
