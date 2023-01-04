@@ -3,11 +3,8 @@ const vueApp = new Vue({
     data() {
         return {
             about: 'Hello there!\n\n' +
-                'My name is Hendro. I live in Indonesia. I have been a software engineer since 2018. My most used programming language is **Node.js**.\n' +
-                'But currently, I\'m in love with **Go**.\n\n' +
-                '~Currently I\'m looking for new job opportunity. Interested in full time remote working.\n' +
-                'But I accept freelance and part time job as well.~\n\n' +
-                '**Update 21 Mar 2021:** I have got my new job. For a moment, I\'m not looking for any jobs.',
+                'My name is Hendro. I live in Indonesia. I have been a software engineer since 2018. My most used programming language is **Node.js** and **Go**.\n' +
+                'Currently I\'m looking for new job opportunity. Interested in remote working.\n',
             techs: [
                 {
                     group: 'Language',
@@ -24,12 +21,13 @@ const vueApp = new Vue({
                         'WebRTC',
                         'Firebase',
                         'Push_Notif',
-                        'FTP'
+                        'FTP',
+                        'Kafka'
                     ]
                 },
                 {
                     group: 'Database',
-                    items: ['MySQL', 'MongoDB', 'PostgreSQL']
+                    items: ['MySQL', 'MongoDB', 'PostgreSQL', 'QuestDB']
                 },
                 {
                     group: 'Backend Framework',
@@ -45,7 +43,15 @@ const vueApp = new Vue({
                 },
                 {
                     group: 'Frontend Framework/Library',
-                    items: ['ReactJS', 'Vue', 'Angular', 'NuxtJS', 'NextJS', 'Ionic', 'jQUery']
+                    items: [
+                        'ReactJS',
+                        'Vue',
+                        'Angular',
+                        'NuxtJS',
+                        'NextJS',
+                        'Ionic',
+                        'jQUery'
+                    ]
                 },
                 {
                     group: 'Devops',
@@ -54,18 +60,29 @@ const vueApp = new Vue({
             ],
             projects: [
                 {
-                    name: 'VosyNet',
+                    name: '1Akun',
                     status: 'Published',
-                    description: 'Marketplace Product Digital.\n\n' +
-                        '- Integrated with Indonesia\'s Payment Gateway.\n' +
-                        '- Chat Buyer and Seller\n' +
-                        '- Push Notification\n',
-                    techs: ['NodeJS', 'AdonisJS', 'Redis', 'Push_Notif'],
+                    description: 'One account for all.\n\n' +
+                        '- Integrated account management.\n' +
+                        '- Including Web Builder, Ecommerce and File Sharing\n',
+                    techs: ['NodeJS', 'Go', 'Vue', 'AdonisJS'],
                     repo: null,
                     website: [
                         {
-                            url: 'https://vosy.net',
-                            title: 'VosyNet'
+                            url: 'https://1akun.com',
+                            title: '1Akun'
+                        },
+                        {
+                            url: 'https://nesia.link',
+                            title: 'Nesia.link Web Builder'
+                        },
+                        {
+                            url: 'https://sardi.top',
+                            title: 'Sardi.Top Digital Product Marketplace'
+                        },
+                        {
+                            url: 'https://upld.my.id',
+                            title: 'Upld.my.id - File Sharing'
                         }
                     ]
                 },
