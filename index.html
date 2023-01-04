@@ -91,9 +91,11 @@
                 </div>
                 <div class="card-footer bg-white">
                     Website:
-                    <a v-for="s in w.website" :href="s.url" target="_blank" rel="noopener noreferrer">
+                    <template v-for="s in w.website">
+                    <a :href="s.url" target="_blank" rel="noopener noreferrer">
                         {{ s.title }}
-                    </a>
+                    </a> |
+                    </template>
                     <span v-if="w.website.length == 0" class="text-danger">-</span>
                 </div>
             </div>
